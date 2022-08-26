@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+
+<div class="home-top" style="background-image: url('https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');">
+    <div class="top-content">
+    </div>
+</div>
+
+<div class="login-form">
+    <main class="form-signin">
+        <form action="/login" method="post">
+          <img class="mb-4" src="images/grant-logo.png" alt="logo">
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      
+          <div class="form-floating login-input">
+            <input type="text" name="username" id="" size="62" placeholder="Enter your username">
+          </div>
+          <div class="form-floating login-input">
+            <input type="password" name="password" id="" size="62" placeholder="Enter your password">
+          </div>
+          <button class="w-100 btn btn-lg btn-dark" type="submit">Sign in</button>
+        </form>
+      </main>
+</div>
+
+
+<%- include('partials/footer') %>

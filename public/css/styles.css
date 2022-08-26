@@ -1,0 +1,166 @@
+body {
+    background-color: #2C3333;
+    color: #E7F6F2;
+    min-width: 800px;
+    text-align: center;
+}
+
+p {
+    font-family: "Open sans";
+}
+
+h1 {
+    font-family: "Merriweather";
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Open sans";
+}
+
+/* nav */
+.nav-div {
+    background-color: #395B64;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+    text-align: right;
+}
+
+.container-fluid {
+    background-color: #395B64;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #A5C9CA !important;
+}
+
+.nav-img {
+    width: 100px;
+}
+
+/* index header */
+.home-top {
+    text-align: center;
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-width: 790px;
+}
+
+.home-top h1 {
+    font-size: 3.5rem;
+}
+
+@media screen and (max-width:800px){
+    .home-top {
+        background-size: 800px;
+    }
+}
+
+.top-content {
+    padding-top: 220px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-shadow: 4px 4px 4px black;
+}
+
+/* blog home content */
+
+.blog-full {
+    height: 350px;
+    padding: 25px;
+    min-width: 770px;
+}
+
+.blog-photo {
+    float: left;
+    width: 350px;
+    padding: 20px;
+}
+
+.home-content {
+    padding-top: 10px;
+}
+
+/* specific blog page */
+
+.blog-page {
+    padding: 35px;
+}
+
+.blog-page p {
+    text-align: left;
+}
+
+@media screen and (max-width:800px){
+    .blog-page {
+        font-size: 2.5rem;
+    }
+
+    .blog-page h1 {
+        font-size: 3.5rem;
+    }
+}
+
+/* compose page */
+
+.compose-page {
+    padding: 40px;
+}
+
+.compose-input {
+    margin: 10px;
+    background-color: #E7F6F2;
+    border: none;
+}
+
+.compose-button {
+    background-color: #A5C9CA;
+}
+
+.compose-button:hover {
+    background-color: #395B64;
+    color: #A5C9CA;
+}
+
+/* login page */
+
+.login-form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.login-input {
+    margin-bottom: 12px;
+}
+
+/* footer */
+footer {
+    background-color: #395B64;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.fa-brands {
+    font-size: 140%;
+    padding: 10px;
+    color: #2C3333;
+}
+
+.fa-brands:hover {
+    color: #A5C9CA;
+}
+
+.icons-group {
+    padding: 10px;
+}

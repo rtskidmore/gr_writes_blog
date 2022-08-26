@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+
+<div class="home-top" style="background-image: url('https://images.unsplash.com/photo-1466096115517-bceecbfb6fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');">
+    <div class="top-content">
+        <h1>Register below to recieve updates</h1>
+    </div>
+</div>
+
+<div class="login-form">
+    <main class="form-signin">
+        <form action="/signup" method="post">
+          <img class="mb-4" src="images/grant-logo.png" alt="logo">
+          <h1 class="h3 mb-3 fw-normal">Receive e-mail updates whenever a new blog is posted!</h1>
+      
+          <div class="form-floating login-input">
+            <input type="email" name="email" id="" size="62" placeholder="Please enter your email here">
+          </div>
+          <div class="form-floating login-input">
+            <input type="text" name="firstName" id="" size="62" placeholder="First Name">
+          </div>
+          <button class="w-100 btn btn-lg btn-dark" type="submit">Send me them updates!</button>
+        </form>
+      </main>
+</div>
+
+<%- include('partials/footer') %>

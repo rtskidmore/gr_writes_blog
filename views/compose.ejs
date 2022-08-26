@@ -1,0 +1,27 @@
+<%- include('partials/header') %>
+
+<div class="home-top" style="background-image: url('https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');">
+    <div class="top-content">
+        <h1>New post, who dis?</h1>
+            <hr>
+        <h3>Create a new blog entry below</h3>
+    </div>
+</div>
+
+<div class="compose-page">
+    <form action="/compose" method="post">
+        <label for="blogTitle">Blog Title</label>
+        <br>
+        <input class="compose-input" type="text" name="blogTitle" id="" size="50" placeholder="Enter the title of this blog here">
+        <br>
+        <label for="imgUrl">Image URL</label>
+        <br>
+        <input class="compose-input" type="url" name="imgUrl" id="" size="50" placeholder="Enter the URL of the image you'd like to add">
+        <br>
+        <textarea class="compose-input" name="content" id="" cols="90" rows="20" placeholder="Enter the content of your blog here"></textarea>
+        <br>
+        <button class="btn btn-lg btn-dark" type="submit">Post that shit!</button>
+    </form>
+</div>
+
+<%- include('partials/footer') %>
