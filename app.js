@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
-require('dotenv').config();
+// require('dotenv').config();
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
 const session = require("express-session");
