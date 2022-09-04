@@ -5,6 +5,18 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width:980px){
+    body {
+        font-size: 2.5rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+}
+
 p {
     font-family: "Open sans";
 }
@@ -44,6 +56,12 @@ h3 {
     width: 100px;
 }
 
+@media screen and (max-width:980px){
+    .nav-link {
+        font-size: 3rem;
+    }
+}
+
 /* index header */
 .home-top {
     text-align: center;
@@ -74,6 +92,7 @@ h3 {
 /* blog home content */
 
 .blog-full {
+    position: relative;
     height: 350px;
     padding: 25px;
     min-width: 770px;
@@ -87,6 +106,18 @@ h3 {
 
 .home-content {
     padding-top: 10px;
+}
+
+@media screen and (max-width:980px){
+    .blog-full {
+        height: auto;
+    }
+    .blog-photo{
+        float: none;
+        display: block;
+        margin: auto;
+        width: 600px;
+    }
 }
 
 /* specific blog page */
@@ -130,6 +161,16 @@ h3 {
     color: #A5C9CA;
 }
 
+@media screen and (max-width:980px){
+    .compose-input {
+        width: 90%;
+    }
+
+    .compose-page button {
+        font-size: 2.5rem;
+    }
+ }
+
 /* login page */
 
 .login-form {
@@ -142,6 +183,29 @@ h3 {
 
 .login-input {
     margin-bottom: 12px;
+}
+
+.login-form input {
+    width: 100%;
+}
+
+.login-form img {
+    width: 400px;
+   }
+
+@media screen and (max-width:980px){
+   .login-form button {
+    font-size: 2.5rem;
+   }
+
+   .login-form {
+    padding: 10px;
+    justify-content: center;
+   }
+
+   .login-form img {
+    width: 500px;
+   }
 }
 
 /* footer */

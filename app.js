@@ -33,6 +33,8 @@ app.use(passport.session());
 // DB design
 mongoose.connect("mongodb+srv://admin-russell:" + process.env.MDB_PASS +"@cluster0.sinxksx.mongodb.net/grwritesDB");
 
+
+
 const blogSchema = new mongoose.Schema ({
     title: {
         type: String,
